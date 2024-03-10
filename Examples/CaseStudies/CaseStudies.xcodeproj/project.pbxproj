@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		433B8B762A49C9AF0035DEE4 /* 03-Navigation-Multiple-Destinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B8B752A49C9AF0035DEE4 /* 03-Navigation-Multiple-Destinations.swift */; };
 		4F5AC11F24ECC7E4009DC50B /* 01-GettingStarted-SharedStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5AC11E24ECC7E4009DC50B /* 01-GettingStarted-SharedStateTests.swift */; };
+		9F5299F22B9DE8FF00329C5E /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5299F12B9DE8FF00329C5E /* NewsList.swift */; };
+		9F5299F52B9DEEDD00329C5E /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5299F42B9DEEDD00329C5E /* News.swift */; };
 		CA0C51FB245389CC00A04EAB /* 04-HigherOrderReducers-ReusableOfflineDownloadsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C51FA245389CC00A04EAB /* 04-HigherOrderReducers-ReusableOfflineDownloadsTests.swift */; };
 		CA25E5D224463AD700DA666A /* 01-GettingStarted-Bindings-Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA25E5D124463AD700DA666A /* 01-GettingStarted-Bindings-Basics.swift */; };
 		CA34170824A4E89500FAF950 /* 01-GettingStarted-AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34170724A4E89500FAF950 /* 01-GettingStarted-AnimationsTests.swift */; };
@@ -148,6 +150,8 @@
 /* Begin PBXFileReference section */
 		433B8B752A49C9AF0035DEE4 /* 03-Navigation-Multiple-Destinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03-Navigation-Multiple-Destinations.swift"; sourceTree = "<group>"; };
 		4F5AC11E24ECC7E4009DC50B /* 01-GettingStarted-SharedStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01-GettingStarted-SharedStateTests.swift"; sourceTree = "<group>"; };
+		9F5299F12B9DE8FF00329C5E /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		9F5299F42B9DEEDD00329C5E /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		CA0C51FA245389CC00A04EAB /* 04-HigherOrderReducers-ReusableOfflineDownloadsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04-HigherOrderReducers-ReusableOfflineDownloadsTests.swift"; sourceTree = "<group>"; };
 		CA25E5D124463AD700DA666A /* 01-GettingStarted-Bindings-Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01-GettingStarted-Bindings-Basics.swift"; sourceTree = "<group>"; };
 		CA34170724A4E89500FAF950 /* 01-GettingStarted-AnimationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01-GettingStarted-AnimationsTests.swift"; sourceTree = "<group>"; };
@@ -275,6 +279,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F5299F32B9DEEA500329C5E /* Expriment */ = {
+			isa = PBXGroup;
+			children = (
+				9F5299F12B9DE8FF00329C5E /* NewsList.swift */,
+				9F5299F42B9DEEDD00329C5E /* News.swift */,
+			);
+			path = Expriment;
+			sourceTree = "<group>";
+		};
 		CA6AC25F2451131C00C71CB3 /* 04-HigherOrderReducers-ResuableOfflineDownloads */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,6 +394,7 @@
 		DC89C41524460F95006900B9 /* SwiftUICaseStudies */ = {
 			isa = PBXGroup;
 			children = (
+				9F5299F32B9DEEA500329C5E /* Expriment */,
 				DC89C42424460F96006900B9 /* Info.plist */,
 				DC89C41A24460F95006900B9 /* 00-RootView.swift */,
 				CAE962FC24A7F7BE00EFC025 /* 01-GettingStarted-AlertsAndConfirmationDialogs.swift */,
@@ -744,6 +758,7 @@
 				CA6AC2662451135C00C71CB3 /* DownloadComponent.swift in Sources */,
 				DC5B505125C86EBC000D8DFD /* 01-GettingStarted-Bindings-Forms.swift in Sources */,
 				CAA9ADC22446587C0003A984 /* 02-Effects-Basics.swift in Sources */,
+				9F5299F22B9DE8FF00329C5E /* NewsList.swift in Sources */,
 				DC89C41B24460F95006900B9 /* 00-RootView.swift in Sources */,
 				DCC68EDD2447A5B00037F998 /* 01-GettingStarted-OptionalState.swift in Sources */,
 				CABC4F3926AEE00C00D5FA2C /* 02-Effects-Refreshable.swift in Sources */,
@@ -755,6 +770,7 @@
 				DC88D8A6245341EC0077F427 /* 01-GettingStarted-Animations.swift in Sources */,
 				DC89C44D244621A5006900B9 /* 03-Navigation-NavigateAndLoad.swift in Sources */,
 				DC89C4442446111B006900B9 /* 01-GettingStarted-Counter.swift in Sources */,
+				9F5299F52B9DEEDD00329C5E /* News.swift in Sources */,
 				DCE63B71245CC0B90080A23D /* 04-HigherOrderReducers-Recursion.swift in Sources */,
 				CAA9ADCA2446605B0003A984 /* 02-Effects-LongLiving.swift in Sources */,
 				DC89C45524465C44006900B9 /* 02-Effects-Timers.swift in Sources */,

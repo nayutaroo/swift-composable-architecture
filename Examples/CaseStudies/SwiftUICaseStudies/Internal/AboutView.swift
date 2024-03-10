@@ -9,3 +9,9 @@ struct AboutView: View {
     }
   }
 }
+
+#Preview {
+    NavigationStack {
+        AboutView(readMe: "abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz  abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz ")
+    }
+}
