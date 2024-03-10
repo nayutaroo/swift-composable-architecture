@@ -8,6 +8,11 @@ struct RootView: View {
     NavigationStack {
       Form {
         Section {
+          NavigationLink("News") {
+            Demo(store: Store(initialState: Counter.State()) { Counter() }) { store in
+              CounterDemoView(store: store)
+            }
+          }
           NavigationLink("Basics") {
             Demo(store: Store(initialState: Counter.State()) { Counter() }) { store in
               CounterDemoView(store: store)
